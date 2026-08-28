@@ -59,7 +59,7 @@ This document describes how to validate the Qualcomm NPU-enabled ONNX Runtime co
 
 ### Develop on device
 ---
-### Option 1 : Deploy Container with WEDA API
+#### Option 1 : Deploy Container with WEDA API
 
 1. Select the Docker Compose file that matches your device and platform directly
    - `docker-compose-qcs6490-yocto.yml`: Advantech AOM-2721 (Advantech QCS6490 platforms)
