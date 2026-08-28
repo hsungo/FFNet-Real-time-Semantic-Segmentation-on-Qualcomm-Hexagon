@@ -59,7 +59,16 @@ This document describes how to validate the Qualcomm NPU-enabled ONNX Runtime co
 
 ### Develop on device
 ---
-#### Option 1: Auto Script
+### Option 1 : Deploy Container with WEDA API
+
+1. Select the Docker Compose file that matches your device and platform directly
+   - `docker-compose-qcs6490-yocto.yml`: Advantech AOM-2721 (Advantech QCS6490 platforms)
+   - `docker-compose-qcs9075-ubuntu.yml`: Advantech AIR-055, Advantech AFE-A503 (Advantech IQ9 platforms)
+     
+2. (Use WEDA API to deploy container to the edge device)[https://learn.advantech.com/weda/docs/Getting_Started/Deploy_Container_to_Device ]
+
+
+#### Option 2: Auto Judge Platform Script
 1. Download repo and copy the project files to device
 
    ![alt text](image.png)
@@ -74,7 +83,7 @@ This document describes how to validate the Qualcomm NPU-enabled ONNX Runtime co
     ./run-container
     ```
 ---
-#### Option 2: Manual Setup
+#### Option 3: Docker Command Setup (manual judge platform)
 1. Copy the Docker Compose file that matches your device and platform directly
 - `docker-compose-qcs6490-yocto.yml`: Advantech AOM-2721
 - `docker-compose-qcs9075-ubuntu.yml`: Advantech AIR-055, Advantech AFE-A503
