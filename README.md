@@ -80,7 +80,7 @@ This document describes how to validate the Qualcomm NPU-enabled ONNX Runtime co
     ```
 4. launch the container
     ```bash
-    ./run-container
+    ./run-container.sh
     ```
 ---
 #### Option 3: Docker Command Setup (manual judge platform)
